@@ -1,0 +1,21 @@
+{
+  "name": "jobingho-bot-wa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WhatsApp bot JobingHo menggunakan Limit Router dan Qwen3.8-27B",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.14",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
